@@ -1,8 +1,13 @@
 aid: the-sentience-company
 name: The Sentience Company
-description: 'The Sentience Company is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'The Sentience Company builds a consumer AI product at sentience.company under the tagline
+  "Build the digital version of you" — a personal AI persona / digital-twin experience where an individual
+  creates and shares a digital version of themselves. It was surfaced as a portfolio company of
+  bain-capital-ventures (sector: ai-apps) and added to the API Evangelist network as a stub for enrichment.
+  As of this enrichment pass no public developer portal, API documentation, machine-readable API surface,
+  or /.well-known/ discovery documents were found — the site is a client-rendered single-page app that
+  returns identical HTML (soft-404) for every path, so this remains an identity-only lead with no API to
+  catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/the-sentience-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sentience.com/og_image.png
 tags:
 - Company
 - Ai Apps
+- Artificial Intelligence
+- Digital Twin
+- Consumer AI
+- AI Persona
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.sentience.company/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
